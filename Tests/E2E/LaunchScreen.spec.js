@@ -1,3 +1,5 @@
+/* eslint-env detox/detox, jest */
+
 describe('Managing Restaurants', () => {
   beforeEach(async () => {
     await device.reloadReactNative()

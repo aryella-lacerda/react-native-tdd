@@ -10,11 +10,13 @@
   "env": {
     "es6": true,
     "node": true,
-    "detox/detox": true
+    "detox/detox": true,
+    "jest/globals": true
   },
   "extends": [
     "eslint:recommended",
-    "react-native"
+    "react-native",
+    "plugin:jest/recommended"
   ],
   "globals": {
     "Atomics": "readonly",
@@ -22,7 +24,8 @@
   },
   "plugins": [
     "react",
-    "detox"
+    "detox",
+    "jest"
   ],
   "rules": {
   }
