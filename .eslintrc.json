@@ -9,7 +9,8 @@
   },
   "env": {
     "es6": true,
-    "node": true
+    "node": true,
+    "detox/detox": true
   },
   "extends": [
     "eslint:recommended",
@@ -20,7 +21,8 @@
     "SharedArrayBuffer": "readonly"
   },
   "plugins": [
-    "react"
+    "react",
+    "detox"
   ],
   "rules": {
   }

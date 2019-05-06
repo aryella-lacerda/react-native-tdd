@@ -69,6 +69,7 @@
     "enzyme-adapter-react-16": "^1.1.0",
     "eslint": "^5.16.0",
     "eslint-config-react-native": "^4.0.0",
+    "eslint-plugin-detox": "^1.0.0",
     "eslint-plugin-react": "^7.13.0",
     "ignite-andross": "^3.2.1",
     "ignite-animatable": "1.0.2",
