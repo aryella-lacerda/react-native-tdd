@@ -10,7 +10,7 @@ export default class AlertMessage extends Component {
     title: PropTypes.string,
     icon: PropTypes.string,
     style: PropTypes.object,
-    show: PropTypes.bool
+    show: PropTypes.bool,
   }
 
   render () {

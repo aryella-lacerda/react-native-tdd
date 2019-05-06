@@ -1,0 +1,4 @@
+{
+    "setupFilesAfterEnv": ["./DetoxInit.js"],
+    "testEnvironment": "node"
+}
